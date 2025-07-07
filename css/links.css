@@ -1,0 +1,25 @@
+/* turn on sublinks */
+
+#sitenav #sub-links {display: block;}
+
+h3 {font-size: 166%;}
+h4#proj {border-bottom: 1px dotted navy; margin-bottom: 0; margin-top: 0;
+   line-height: 80%;}
+#previews {float: right; width: 135px;
+   margin: 0 0 0.5em 1em; padding: 0; text-align: right;}
+#previews img {width: 133px; height: 100px;
+   margin: 8px 0 0; border: 1px solid rgb(40%,45%,60%);}
+
+#previews h5 {background-color: rgb(7%,25%,52%); color: white;
+   border: 1px solid #112; border-width: 1px 1px 0;
+   font: bold 85% Univers, Arial, Verdana, sans-serif; text-align: center;
+   padding: 1px 0.5em; margin: 1.5em 0 0;}
+#arcs {text-align: center; font-size: 75%; margin: 0;
+   padding: 1px 0.66em;border: 1px solid #112; background: #F2F2E2;}
+#arcs a:link {border-width: 0; color: #115; font-size: 110%;}
+#arcs a:visited {border-width: 0; color: #515; font-size: 110%;}
+#arcs img {height: 32px; width: 32px; margin: 3px 5px; border-width: 0;}
+
+div#main {margin-right: 20%;}
+
+p#descript {margin-top: 0.75em;}
