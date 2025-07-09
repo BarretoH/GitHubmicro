@@ -1,12 +1,12 @@
 <?
 session_start();
-If ($_SESSION["micro_instructor"] !== "tempLogin"){
+If ($_SESSION["microExcel_instructor"] !== "tempLogin"){
 	if ($_POST["username"] !== "") {
 		if ($_POST["username"] === "micro" && $_POST["password"] === "excel") {
-			$_SESSION["micro_instructor"] = "tempLogin";
+			$_SESSION["microExcel_instructor"] = "tempLogin";
 			header('Location: https://barretoh.github.io/GitHubmicro/MicroInstructor/instructor_resources.php');		
 		} else {
-			$_SESSION["micro_error"] === "Wrong Username or Password";
+			$_SESSION["microExcel_error"] === "Wrong Username or Password";
 			echo "Wrong Username or Password";
 		}
 	} else{
